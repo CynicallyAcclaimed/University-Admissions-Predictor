@@ -8,3 +8,18 @@ As Human-Computer Interaction is still a growing field, there isn't a lot of dat
 So, to improve the model, I looked into synthetically generating more data based on the existing collection. 
 
 I had already explored the different types of GAN models and for my purpose, CTGAN was the best way forward. Accuracies with different models and number of data points were compared, and an average accuracy of 75% for each university was achieved. 
+
+
+### Datasheet Info:
+GRE and TOEFL scores can be NA because:
+(a) University doesn't require the scores;
+(b) The student has a waiver or doesn't need to submit the scores
+
+CGPA converted to 4.0 scale for uniformity
+
+Student Status based on GradCafe's notation: 
+I for International Students;
+A for Domestic Students;
+U for International Students with a domestic undergraduate degree
+
+QS and THE rankings are from 2020 and are liable to change
